@@ -1,0 +1,29 @@
+<p class="eventName">
+						<input type="text" name="eventName" id="eventName" value="<?php echo $row['eventName'];?>">
+						<label for="eventName">Event Name</label>
+					</p>
+					
+					<p class="photo">
+						<input type="text" name="photo" id="photo" value="<?php echo $row['photo'];?>">
+						<label for="photo">Photo</label>
+					</p>
+					
+					<p class="date">
+						<input type="text" name="date" id="date" value="<?php echo $row['date'];?>">
+						<label for="date">Date</label>
+					</p>
+					
+					<p class="time">
+						<input type="text" name="time" id="time" value="<?php echo $row['time'];?>">
+						<label for="time">Time</label>
+					</p>
+					
+					<p class="place">
+						<input type="text" name="place" id="place" value="<?php echo $row['address'];?>">
+						<label for="place">Address</label>
+					</p>
+					
+					<p class="maxnrpeople">
+						<input type="text" name="maxnrpeople" id="maxnrpeople" value="<?php echo $row['maxnrpeople'];?>">
+						<label for="maxnrpeople">Maximum number of people</label>
+					</p>

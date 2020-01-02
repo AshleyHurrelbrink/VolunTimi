@@ -1,0 +1,146 @@
+.image{
+	padding-top: 0;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.image h3 {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: arial;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.info{
+	width:25%;
+	float: left;
+	position:sticky;
+}
+
+.volunteers{
+	padding-left:2em;
+	width:70%;
+	float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+	padding-top:2%;
+	padding-bottom:2%;
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+.volunteers b {
+	color: #000000;
+	text-align:center;
+	font-family: 'Neucha', cursive;
+	font-size: 2em;
+	padding-top:0.5em;
+	padding-bottom: 1.5em;
+	text-transform: uppercase;
+	background:white;
+  
+}
+table{
+	table-layout: fixed;
+	text-align:center; 
+}
+
+  table tr {
+    border-radius: 3px;
+    justify-content: space-evenly;
+	background-color: #ffffff;
+  }
+  table tr#head{
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;	
+	border-color:#95A5A6;
+  }
+  table tr#body{
+	 box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+  }
+  td{
+    vertical-align: middle;
+	padding: 10px 10px;
+  }
+  th{
+	  padding: 10px 10px;
+	  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+	  border-radius: 3px;
+  }
+  
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.empty{
+	text-align: center;
+	width:100%;
+	font-size: 23px;
+	
+	
+}
+
+.box button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 50%;
+  max-width: 300px;
+  background: #b3cccc;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.6%;
+  transition: all 0.3s ease-out;
+  font-family: 'Neucha', cursive;
+  font-size: 23px;
+  float:left;
+ 
+}
+
+.box button:hover,
+.box button:focus,
+.box button:active {
+  background: #b3cccc;
+  color: #000;
+  transition: all 0.5s ease-in;
+}

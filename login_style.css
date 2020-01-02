@@ -1,0 +1,137 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+	margin:0;
+	padding:0;
+}
+html, body{
+	height: 100%;
+}
+
+body{	
+	background-image: url("image/login_background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container{
+	width:30%;
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	background: rgb(0,0,0,0.4);
+	
+}
+
+
+.login-box{
+	width:50%;
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3%;
+}
+
+
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 4%;
+  width: 100%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.4%;
+  transition: all 0.3s ease-out;
+  font-family: 'Neucha', cursive;
+  font-size: 28px;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+
+.semi-transparent-button {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 4%;
+  width: 100%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.4%;
+  transition: all 0.3s ease-out;
+  font-family: 'Neucha', cursive;
+  font-size: 28px;
+}
+
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+}
+
+.textbox{
+	width:100%;
+	overflow:hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	border-bottom: 2px solid white;
+	display: center;
+	
+	
+}
+
+.textbox i{
+	width:5%;
+	float: left;
+	text-align:center;
+	color: white;
+}
+
+.textbox input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 90%;
+	float: left;
+	margin:0 10 px;
+}
+
+.login-box p{
+	padding-top: 30px;
+	color:#fff;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	text-align: left;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(255,255,255,0.6); 
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: rgb(255,255,255,0.6);  
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: rgb(255,255,255,0.6); 
+} 

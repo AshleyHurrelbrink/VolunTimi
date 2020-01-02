@@ -1,0 +1,43 @@
+
+
+.image{
+	padding-top: 0;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.image h3 {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: arial;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+.footer {
+   position: absolute;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding-bottom:0.75em;
+   margin-top:auto; 
+  
+}
+
+.image_footer{
+	padding-top:0.75em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	
+}
